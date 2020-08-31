@@ -50,8 +50,8 @@
   background-color: #66ff66;
   color: black;
   border-radius: 30px;
-/*  margin-top: 150px;
-  margin-left: 500px;*/
+  /*  margin-top: 150px;
+    margin-left: 500px;*/
   border: 8px solid black;
   font-family: "Arial Unicode MS";
 
@@ -68,7 +68,7 @@ button {
   width: 90px;
   height: 45px;
   margin-left: 0px;
-  margin-top: 205px;
+  margin-top: 160px;
   border-radius: 4px;
   background-color: #61dafb;
   border: 1px solid black ;

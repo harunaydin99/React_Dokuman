@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Select from "./Select";
 import Text from "./Text";
+import Finish from "./Finish";
 
 class App extends Component {
     state = {
@@ -17,7 +18,7 @@ class App extends Component {
             },
             100 : {
                 data: "Bitti !!!!",
-                selectable: false
+                selectable: undefined
             },
             1 : {
                 data:"Bilgisayarınız güç kaynağına bağlı mı ?",
@@ -164,11 +165,13 @@ class App extends Component {
             }*/}
 
                 {
-                    <h2>{this.state.dictionary[this.state.currentid].data}</h2>   /// this.state.dictionary["0"].data   gibi
+                    <h4>{this.state.dictionary[this.state.currentid].data}</h4>   /// this.state.dictionary["0"].data   gibi
                 }
 
                 {
-                    this.state.dictionary[this.state.currentid].selectable === true ? <Select handleClickNo={this.idPlusNegative} handleClickYes={this.idPlusPositive}></Select> : <Text handleClick={this.idPlusOK}></Text>
+                    this.state.dictionary[this.state.currentid].selectable === true ? <Select handleClickNo={this.idPlusNegative} handleClickYes={this.idPlusPositive}></Select>
+                        : this.state.dictionary[this.state.currentid].selectable === false ? <Text handleClick={this.idPlusOK}></Text>
+                        : <Finish></Finish>
                 }
 
 

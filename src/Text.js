@@ -33,7 +33,7 @@ class Text extends Component {
             <div>
 
                 <div>
-                 <button onClick={this.handleClick}>Tamam</button>
+                    <button onClick={this.handleClick}>Tamam</button>
                 </div>
             </div>
         );
