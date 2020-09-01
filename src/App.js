@@ -3,14 +3,111 @@ import './App.css';
 import Select from "./Select";
 import Text from "./Text";
 import Finish from "./Finish";
+import DocumentDatas from './JSONS/Windows10Guncelleme.json';
+import { Button, ButtonGroup } from 'reactstrap';
 
 class App extends Component {
     state = {
         control: 0,
         cevap: '',
         kontrol :0,
-        currentid :0,
-        dictionary : {
+        currentid :0
+    }
+
+    idPlusOK = (e) =>{
+/*        this.setState({
+            currentid:(Math.floor(this.state.currentid)) + 1
+        })*/
+        this.setState({
+            currentid: DocumentDatas[this.state.currentid].selectOK
+        })
+    }
+    idPlusPositive = (e) =>{
+        /*        this.setState({
+                    currentid:(Math.floor(this.state.currentid)) + 1
+                })*/
+        this.setState({
+            currentid: DocumentDatas[this.state.currentid].selectPositive
+        })
+    }
+    idPlusNegative = (e) =>{
+        /*        this.setState({
+                    currentid:(Math.floor(this.state.currentid)) + 1
+                })*/
+        this.setState({
+            currentid: DocumentDatas[this.state.currentid].selectNegative
+        })
+    }
+
+  render() {
+    return (
+        <div>
+            <div className="geneldiv">
+
+{/*            {
+                this.state.dictionary[this.state.currentid].data
+            }*/}
+
+                {
+                    <h2>{DocumentDatas[this.state.currentid].data}</h2>   /// this.state.dictionary["0"].data   gibi
+                }
+
+                {
+                    DocumentDatas[this.state.currentid].selectable === true ? <Select handleClickNo={this.idPlusNegative} handleClickYes={this.idPlusPositive}></Select>
+                        : DocumentDatas[this.state.currentid].selectable === false ? <Text handleClick={this.idPlusOK}></Text>
+                        : <Finish></Finish>
+                }
+
+
+
+{/*            {this.state.dictionary.map(name => (
+                <li>
+                    {name.data}
+                </li>
+            ))}*/}
+
+            {/*<Text takedata={this.state.dictionary[0].data}></Text>*/}
+            </div>
+        </div>
+    );
+  }
+}
+
+export default App;
+
+
+
+
+/*        dictionary: [
+            {
+                id: 0,
+                data: "Windows 10 Güncelleştirme Dökümanı",
+                checked: false
+            },
+            {
+                id: 1,
+                data: "Bilgisayarınız güç kaynağına bağlı mı ?",
+                checked: true
+            },
+            {
+                id: 2,
+                data: "Bilgisayarınızı güç kaynağına bağlayınız",
+                checked: false
+            },
+            {
+                id: 3,
+                data: "Bilgisayarınız açık mı ?",
+                checked: true
+            },
+            {
+                id: 4,
+                data: "Bilgisayarınızı açınız",
+                checked: false
+            }
+        ]*/
+
+
+/*        dictionary : {
             0 : {
                 data: "Windows 10 Güncelleştirme Dökümanı",
                 selectable: false,
@@ -18,7 +115,7 @@ class App extends Component {
             },
             100 : {
                 data: "Bitti !!!!",
-                selectable: undefined
+                selectable: 99
             },
             1 : {
                 data:"Bilgisayarınız güç kaynağına bağlı mı ?",
@@ -127,96 +224,4 @@ class App extends Component {
                 selectable:false,
                 selectOK: 18
             }
-        }
-    }
-
-    idPlusOK = (e) =>{
-/*        this.setState({
-            currentid:(Math.floor(this.state.currentid)) + 1
-        })*/
-        this.setState({
-            currentid: this.state.dictionary[this.state.currentid].selectOK
-        })
-    }
-    idPlusPositive = (e) =>{
-        /*        this.setState({
-                    currentid:(Math.floor(this.state.currentid)) + 1
-                })*/
-        this.setState({
-            currentid: this.state.dictionary[this.state.currentid].selectPositive
-        })
-    }
-    idPlusNegative = (e) =>{
-        /*        this.setState({
-                    currentid:(Math.floor(this.state.currentid)) + 1
-                })*/
-        this.setState({
-            currentid: this.state.dictionary[this.state.currentid].selectNegative
-        })
-    }
-
-  render() {
-    return (
-        <div>
-            <div className="geneldiv">
-
-{/*            {
-                this.state.dictionary[this.state.currentid].data
-            }*/}
-
-                {
-                    <h4>{this.state.dictionary[this.state.currentid].data}</h4>   /// this.state.dictionary["0"].data   gibi
-                }
-
-                {
-                    this.state.dictionary[this.state.currentid].selectable === true ? <Select handleClickNo={this.idPlusNegative} handleClickYes={this.idPlusPositive}></Select>
-                        : this.state.dictionary[this.state.currentid].selectable === false ? <Text handleClick={this.idPlusOK}></Text>
-                        : <Finish></Finish>
-                }
-
-
-{/*            {this.state.dictionary.map(name => (
-                <li>
-                    {name.data}
-                </li>
-            ))}*/}
-
-            {/*<Text takedata={this.state.dictionary[0].data}></Text>*/}
-            </div>
-        </div>
-    );
-  }
-}
-
-export default App;
-
-
-
-
-/*        dictionary: [
-            {
-                id: 0,
-                data: "Windows 10 Güncelleştirme Dökümanı",
-                checked: false
-            },
-            {
-                id: 1,
-                data: "Bilgisayarınız güç kaynağına bağlı mı ?",
-                checked: true
-            },
-            {
-                id: 2,
-                data: "Bilgisayarınızı güç kaynağına bağlayınız",
-                checked: false
-            },
-            {
-                id: 3,
-                data: "Bilgisayarınız açık mı ?",
-                checked: true
-            },
-            {
-                id: 4,
-                data: "Bilgisayarınızı açınız",
-                checked: false
-            }
-        ]*/
+        }*/

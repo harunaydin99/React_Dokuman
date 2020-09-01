@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
+import {Col, Container, Row} from 'reactstrap';
+import { Button, ButtonGroup } from 'reactstrap';
 
 class Select extends Component {
+
 
     handleClickYes = (e) =>{
         this.props.handleClickYes()
@@ -12,7 +15,18 @@ class Select extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.handleClickYes}>Evet</button><button style={{marginLeft:"20px"}} onClick={this.handleClickNo}>Hayır</button>
+{/*                <Container>
+                    <Row>
+                        <button onClick={this.handleClickNo}>Hayır</button>  <button style={{marginLeft:"20px"}} onClick={this.handleClickYes}>Evet</button>
+                    </Row>
+                </Container>*/}
+
+
+                    <ButtonGroup>
+                        <Button className="Button" onClick={this.handleClickNo}>Hayır</Button>
+                        <Button className="Button" onClick={this.handleClickYes}>Evet</Button>
+                    </ButtonGroup>
+
 
             </div>
         );

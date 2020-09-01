@@ -1,0 +1,78 @@
+{
+  "0" : {
+    "data": "Android Kurulum",
+    "selectable": false,
+    "selectOK": 1
+  },
+  "100" : {
+    "data": "Teşekkürler !!!!",
+    "selectable": 99
+  },
+  "1" : {
+    "data":"Güç tuşuna uzun bas",
+    "selectable": false,
+    "selectOK": 2
+  },
+  "2" : {
+    "data": "Açıldı mı ?",
+    "selectable":true,
+    "selectPositive": 4,
+    "selectNegative": 3
+  },
+  "3": {
+    "data":"Telefonu şarja takın",
+    "selectable": false,
+    "selectOK": 1
+  },
+  "4" : {
+    "data": "Başla butonuna tıklayınız",
+    "selectable":false,
+    "selectOK": 5
+  },
+  "5": {
+    "data":"Telefon dilini seçip 'Sonraki' butonuna tıklayınız",
+    "selectable": false,
+    "selectOK": 6
+  },
+  "6" : {
+    "data": "Yukarıdakilerin tümünü okudum ve kabul ediyorum butonuna tıklayınız",
+    "selectable":false,
+    "selectOK": 7
+  },
+  "7": {
+    "data":"Wi-Fi seçin ya da atla butonuna basarak geçin",
+    "selectable": false,
+    "selectOK": 8
+  },
+  "8" : {
+    "data": "Atla butonuna basıldı mı ?",
+    "selectable":true,
+    "selectPositive": 10,
+    "selectNegative": 9
+  },
+  "9": {
+    "data":"Kablosuz ağınızı seçip parolayı girin ve 'Bağlan' butonuna tıklayın",
+    "selectable": false,
+    "selectOK": 11
+  },
+  "10" : {
+    "data": "'Son' butonuna tıklayarak kurulumu sonlandırın",
+    "selectable":false,
+    "selectOK": 100
+  },
+  "11" : {
+    "data": "İleri butonuna tıklayın",
+    "selectable":false,
+    "selectOK": 12
+  },
+  "12" : {
+    "data": "Google hesabınızı girin ve 'İleri' butonuna tıklayın",
+    "selectable":false,
+    "selectOK": 13
+  },
+  "13" : {
+    "data": "Hizmet şartları ve gizlilik politikasını kabul etmek için 'Kabul Ediyorum' butonuna tıklayınız",
+    "selectable":false,
+    "selectOK": 10
+  }
+}

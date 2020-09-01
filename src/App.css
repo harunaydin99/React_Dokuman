@@ -39,9 +39,9 @@
 
 .geneldiv{
   width: 60%;
-  max-width: 1200px;
+  max-width: 700px;
   margin: 0px auto;
-  height: 300px;
+  height: 400px;
   padding: 30px;
   /*width: 600px;
   height: 600px;*/
@@ -53,8 +53,8 @@
   /*  margin-top: 150px;
     margin-left: 500px;*/
   border: 8px solid black;
-  font-family: "Arial Unicode MS";
 
+  /*background-image: url("background.png");*/
 }
 .select{
   width: 400px;
@@ -64,25 +64,28 @@
   width: 400px;
   height: 400px;
 }
-button {
-  width: 90px;
+Button {
+  width: 200px;
   height: 45px;
-  margin-left: 0px;
-  margin-top: 160px;
+  margin-left: 30px;
+  margin-top: 20px;
   border-radius: 4px;
   background-color: #61dafb;
-  border: 1px solid black ;
+  /*border: 1px solid black ;*/
   color: black;
   text-align: center;
-  font-size: 16px;
-  cursor: pointer;
+  font-size: 20px !important;
+  cursor: pointer !important;
 
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-button:hover {
+Button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-button:focus{
+Button:focus{
   outline: 0px;
 }
+
+
+

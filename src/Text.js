@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Button, ButtonGroup} from "react-bootstrap";
 
 class Text extends Component {
     state = {
@@ -33,7 +34,9 @@ class Text extends Component {
             <div>
 
                 <div>
-                    <button onClick={this.handleClick}>Tamam</button>
+                    <ButtonGroup>
+                        <Button onClick={this.handleClick}>Tamam</Button>
+                    </ButtonGroup>
                 </div>
             </div>
         );
