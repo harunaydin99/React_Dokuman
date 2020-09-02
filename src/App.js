@@ -71,7 +71,7 @@ class App extends Component {
                         : <Finish></Finish>
                 }
                 {
-                    this.state.currentid !== 0 ? <button className="btn-1" onClick={this.turnBackbutton}>-- Geri --</button> : null
+                    this.state.currentid !== 0 ? <button className="btn-1" onClick={this.turnBackbutton}><i className="fas fa-backward"></i> Geri</button> : null
                 }
 
 
