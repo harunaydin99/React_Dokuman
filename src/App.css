@@ -41,14 +41,14 @@
   width: 60%;
   max-width: 700px;
   margin: 0px auto;
-  height: 400px;
+  height: 450px;
   padding: 30px;
   /*width: 600px;
   height: 600px;*/
   text-align: center;
-  font-size: 30px;
-  background-color: #66ff66;
-  color: black;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
   border-radius: 30px;
   /*  margin-top: 150px;
     margin-left: 500px;*/
@@ -57,21 +57,24 @@
   /*background-image: url("background.png");*/
 }
 .select{
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 .text{
-  width: 400px;
-  height: 400px;
-}
-Button {
   width: 200px;
+  height: 200px;
+}
+.textButton {
+  width: 90px;
   height: 45px;
-  margin-left: 30px;
-  margin-top: 20px;
+/*  margin-left: 0px;
+  margin-top: 150px;*/
+  position: fixed;
+  left:790px;
+  top:475px;
   border-radius: 4px;
   background-color: #61dafb;
-  /*border: 1px solid black ;*/
+  border: 1px solid black ;
   color: black;
   text-align: center;
   font-size: 20px !important;
@@ -80,11 +83,68 @@ Button {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-Button:hover {
+.textButton:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-Button:focus{
+.textButton:focus{
   outline: 0px;
+}
+
+.selectButton {
+  width: 90px;
+  height: 45px;
+  margin-left: 0px;
+  margin-top: 150px;
+  /*  margin-left: 30px;
+    margin-top: 20px;*/
+  /*  position: fixed;
+    left:790px;
+    top:475px;*/
+  border-radius: 4px;
+  background-color: #61dafb;
+  border: 1px solid black ;
+  color: black;
+  text-align: center;
+  font-size: 20px !important;
+  cursor: pointer !important;
+
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.selectButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.selectButton:focus{
+  outline: 0px;
+}
+
+
+img{
+  width: 300px;
+  height: 200px;
+}
+
+.btn-1 {
+  width: 90px;
+  height: 45px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  position: fixed;
+  left:460px;
+  top:475px;
+  cursor: pointer;
+  border: 1px solid #4CAF50;
+}
+
+.btn-1:hover {
+  background-color: #fff;
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+.btn-1:focus{
+  outline: 0;
 }
 
 

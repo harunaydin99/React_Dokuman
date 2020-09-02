@@ -5,26 +5,6 @@ class Text extends Component {
     state = {
         deger: 0
     }
-/*    state = {
-        texts: [
-            {
-                textid: 0,
-                textdata: "Windows 10 Güncelleştirme Dökümanı"
-            },
-            {
-                textid: 1,
-                textdata: "Bilgisayarınızı güç kaynağına bağlayınız"
-            },
-            {
-                textid: 2,
-                textdata: "Bilgisayarınızı açınız"
-            },
-            {
-                textid: 3,
-                textdata: "Bu döküman Windows 10 sürümü içindir. Kendi sürümünüz için olan dökümana geçiniz"
-            }
-        ]
-    }*/
     handleClick = (e) =>{
         this.props.handleClick()
     }
@@ -35,7 +15,7 @@ class Text extends Component {
 
                 <div>
                     <ButtonGroup>
-                        <Button onClick={this.handleClick}>Tamam</Button>
+                        <Button className="textButton" onClick={this.handleClick}>Tamam</Button>
                     </ButtonGroup>
                 </div>
             </div>

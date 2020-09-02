@@ -1,0 +1,46 @@
+{
+  "0": {
+    "data": "Mac OS Bluetooth'lu Cihaz Kurulumu ve Diğer Cihazlarla Bağlantılar",
+    "selectable": false,
+    "selectOK": 1
+  },
+  "100": {
+    "data": "Teşekkürler !!!!",
+    "selectable": 99
+  },
+  "1": {
+    "data": "Başla",
+    "selectable": false,
+    "selectOK": 2
+  },
+  "2": {
+    "data": "Apple logosu",
+    "selectable": false,
+    "selectOK": 3
+  },
+  "3": {
+    "data": "Sistem Tercihleri",
+    "selectable": false,
+    "selectOK": 4
+  },
+  "4": {
+    "data": "Bluetooth",
+    "selectable": false,
+    "selectOK": 5
+  },
+  "5": {
+    "data": "Bluetooth'u aç",
+    "selectable": false,
+    "selectOK": 6
+  },
+  "6": {
+    "data": "Bağlanabilecek cihazların listesini göreceksiniz. Bağlanmak istediğiniz Bluetooth cihazını bu listede bulabilirsiniz. (Cihaz açık olduğu sürece)",
+    "selectable": false,
+    "selectOK": 7
+  },
+  "7": {
+    "data": "Bağlan'a tıklayın",
+    "selectable": false,
+    "selectOK": 100
+  }
+}

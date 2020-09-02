@@ -1,118 +1,140 @@
 {
     "0" : {
-    "data": "Windows 10 Güncelleştirme Dökümanı",
-    "selectable": false,
-    "selectOK": 1
+        "data": "Windows 10 Güncelleştirme Dökümanı",
+        "selectable": false,
+        "selectOK": 1,
+        "img": "./Windows-10.png"
     },
     "100" : {
-    "data": "Teşekkürler !!!!",
-    "selectable": 99
+        "data": "Teşekkürler !!!!",
+        "selectable": 99,
+        "img": "./Thanks.png"
     },
     "1" : {
-    "data":"Bilgisayarınız güç kaynağına bağlı mı ?",
-    "selectable": true,
-    "selectPositive": 3,
-    "selectNegative": 2
+        "data":"Bilgisayarınız güç kaynağına bağlı mı ?",
+        "selectable": true,
+        "selectPositive": 3,
+        "selectNegative": 2,
+        "img": "./PowerSupply.png"
     },
     "2" : {
-    "data": "Bilgisayarınızı güç kaynağına bağlayınız",
-    "selectable":false,
-    "selectOK": 3
+        "data": "Bilgisayarınızı güç kaynağına bağlayınız",
+        "selectable":false,
+        "selectOK": 3,
+        "img": "./PowerSupply.png"
     },
     "3": {
-    "data":"Bilgisayarınız açık mı ?",
-    "selectable": true,
-    "selectPositive": 7,
-    "selectNegative": 4
+        "data":"Bilgisayarınız açık mı ?",
+        "selectable": true,
+        "selectPositive": 7,
+        "selectNegative": 4,
+        "img": "./Computer.png"
     },
     "4" : {
-    "data": "Bilgisayarınızı açınız",
-    "selectable":false,
-    "selectOK": 5
+        "data": "Bilgisayarınızı açınız",
+        "selectable":false,
+        "selectOK": 5,
+        "img": "./Computer.png"
     },
     "5": {
-    "data":"Bilgisayarınız açıldı mı ?",
-    "selectable": true,
-    "selectPositive": 7,
-    "selectNegative": 6
+        "data":"Bilgisayarınız açıldı mı ?",
+        "selectable": true,
+        "selectPositive": 7,
+        "selectNegative": 6,
+        "img": "./Computer.png"
     },
     "6" : {
-    "data": "Teknik servisten yardım alınız",
-    "selectable":false,
-    "selectOK": 100
+        "data": "Teknik servisten yardım alınız",
+        "selectable":false,
+        "selectOK": 100,
+        "img": "./TechnicService.png"
     },
     "7": {
-    "data":"Bilgisayarınızın versiyonu Windows 10 mu ?",
-    "selectable": true,
-    "selectPositive": 9,
-    "selectNegative": 8
+        "data":"Bilgisayarınızın versiyonu Windows 10 mu ?",
+        "selectable": true,
+        "selectPositive": 9,
+        "selectNegative": 8,
+        "img": "./Windows-10.png"
     },
     "8" : {
-    "data": "Bu döküman Windows 10 sürümü içindir. Kendi sürümünüz için olan dökümana gidiniz",
-    "selectable":false,
-    "selectOK": 100
+        "data": "Bu döküman Windows 10 sürümü içindir. Kendi sürümünüz için olan dökümana gidiniz",
+        "selectable":false,
+        "selectOK": 100,
+        "img": "./Windows-10.png"
     },
     "9": {
-    "data":"Bilgisayarınız internete bağlı mı ?",
-    "selectable": true,
-    "selectPositive": 11,
-    "selectNegative": 10
+        "data":"Bilgisayarınız internete bağlı mı ?",
+        "selectable": true,
+        "selectPositive": 11,
+        "selectNegative": 10,
+        "img": "Wi-Fi.png"
     },
     "10" : {
-    "data": "İnternete bağlı olmadan güncelleştirmeler yüklenemez. Lütfen bilgisayarınızın internete bağlı olduğundan emin olun",
-    "selectable":false,
-    "selectOK": 100
+        "data": "İnternete bağlı olmadan güncelleştirmeler yüklenemez. Lütfen bilgisayarınızın internete bağlı olduğundan emin olun",
+        "selectable":false,
+        "selectOK": 100,
+        "img": "Wi-Fi.png"
     },
     "11" : {
-    "data": "Sol altta bulunan Başlat butonuna tıklayınız",
-    "selectable":false,
-    "selectOK": 12
+        "data": "Sol altta bulunan Başlat butonuna tıklayınız",
+        "selectable":false,
+        "selectOK": 12,
+        "img": "./Computer.png"
     },
     "12" : {
-    "data": "Başlat Menüsünden Ayarlar butonuna tıklayınız",
-    "selectable":false,
-    "selectOK": 13
+        "data": "Başlat Menüsünden Ayarlar butonuna tıklayınız",
+        "selectable":false,
+        "selectOK": 13,
+        "img": "Settings.png"
     },
     "13" : {
-    "data": "Çıkan Menüde Güncelleştirme ve Güvenlik butonuna tıklayınız",
-    "selectable":false,
-    "selectOK": 14
+        "data": "Çıkan Menüde Güncelleştirme ve Güvenlik butonuna tıklayınız",
+        "selectable":false,
+        "selectOK": 14,
+        "img": "./update1.png"
     },
     "14": {
-    "data":"Güncelleştirmeleri denetle butonu var mı ?",
-    "selectable": true,
-    "selectPositive": 16,
-    "selectNegative": 15
+        "data":"Güncelleştirmeleri denetle butonu var mı ?",
+        "selectable": true,
+        "selectPositive": 16,
+        "selectNegative": 15,
+        "img": "./update1.png"
     },
     "15" : {
-    "data": "Şimdi yükle butonuna basınız",
-    "selectable":false,
-    "selectOK": 19
+        "data": "Şimdi yükle butonuna basınız",
+        "selectable":false,
+        "selectOK": 19,
+        "img": "./Computer.png"
     },
     "16" : {
-    "data": "Ekranda açılan 'Güncelleştirmeleri Denetle' butonuna tıklayınız",
-    "selectable":false,
-    "selectOK": 17
+        "data": "Ekranda açılan 'Güncelleştirmeleri Denetle' butonuna tıklayınız",
+        "selectable":false,
+        "selectOK": 17,
+        "img": "./update1.png"
     },
     "17": {
-    "data":"Yeni güncelleştirmeler var mı ?",
-    "selectable": true,
-    "selectPositive": 15,
-    "selectNegative": 18
+        "data":"Yeni güncelleştirmeler var mı ?",
+        "selectable": true,
+        "selectPositive": 15,
+        "selectNegative": 18,
+        "img": "./update1.png"
     },
     "18" : {
-    "data": "Bilgisayarınız kullanıma hazırdır",
-    "selectable":false,
-    "selectOK": 100
+        "data": "Bilgisayarınız kullanıma hazırdır",
+        "selectable":false,
+        "selectOK": 100,
+        "img": "./Computer.png"
     },
     "19" : {
-    "data": "Güncelleştirmeler indikten sonra ekranınızda yeniden başlatınız uyarısı göreceksiniz",
-    "selectable":false,
-    "selectOK": 20
+        "data": "Güncelleştirmeler indikten sonra ekranınızda yeniden başlatınız uyarısı göreceksiniz",
+        "selectable":false,
+        "selectOK": 20,
+        "img": "./Computer.png"
     },
     "20" : {
-    "data": "Bilgisayarınızı yeniden başlatın.(Veri kaybı yaşamamak için açık olan dökümanlarınızı kaydediniz)",
-    "selectable":false,
-    "selectOK": 18
+        "data": "Bilgisayarınızı yeniden başlatın.(Veri kaybı yaşamamak için açık olan dökümanlarınızı kaydediniz)",
+        "selectable":false,
+        "selectOK": 18,
+        "img": "./Computer.png"
     }
 }

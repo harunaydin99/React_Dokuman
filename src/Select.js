@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Col, Container, Row} from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
 
 class Select extends Component {
@@ -23,8 +22,8 @@ class Select extends Component {
 
 
                     <ButtonGroup>
-                        <Button className="Button" onClick={this.handleClickNo}>Hayır</Button>
-                        <Button className="Button" onClick={this.handleClickYes}>Evet</Button>
+                        <Button className="selectButton" onClick={this.handleClickNo}>Hayır</Button>
+                        <Button style={{marginLeft:"7px"}} className="selectButton" onClick={this.handleClickYes}>Evet</Button>
                     </ButtonGroup>
 
 

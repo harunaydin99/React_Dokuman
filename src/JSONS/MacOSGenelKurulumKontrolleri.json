@@ -1,0 +1,82 @@
+{
+  "0" : {
+    "data": "MacOS Genel Kurulum Kontrolleri",
+    "selectable": false,
+    "selectOK": 1
+  },
+  "100" : {
+    "data": "Teşekkürler !!!!",
+    "selectable": 99
+  },
+  "1" : {
+    "data":"Ana Dili Seçin",
+    "selectable": false,
+    "selectOK": 2
+  },
+  "2" : {
+    "data": "Klavyenizi Seçin",
+    "selectable":false,
+    "selectOK": 3
+  },
+  "3": {
+    "data":"Wi-Fi Ağınızı Seçin",
+    "selectable": false,
+    "selectOK": 4
+  },
+  "4" : {
+    "data": "Bilgileri Bu Mac'e Aktarın",
+    "selectable":false,
+    "selectOK": 5
+  },
+  "5": {
+    "data":"Konum Servislerini Etkinleştirin",
+    "selectable": false,
+    "selectOK": 6
+  },
+  "6" : {
+    "data": "Sürdür'ü Tıklayın",
+    "selectable":false,
+    "selectOK": 7
+  },
+  "7": {
+    "data": "Apple Kimliğiniz var mı ?",
+    "selectable":true,
+    "selectPositive": 14,
+    "selectNegative": 8
+  },
+  "8" : {
+    "data": "Giriş yapma",
+    "selectable":false,
+    "selectOK": 9
+  },
+  "9": {
+    "data":"Sürdür'e tıklayın",
+    "selectable": false,
+    "selectOK": 10
+  },
+  "10" : {
+    "data": "Hüküm ve Koşullar",
+    "selectable":false,
+    "selectOK": 11
+  },
+  "11" : {
+    "data": "Bilgisayar Hesabı yaratın",
+    "selectable":false,
+    "selectOK": 12
+  },
+  "12" : {
+    "data": "Tanılar ve Kullanım",
+    "selectable":false,
+    "selectOK": 13
+  },
+  "13" : {
+    "data": "Siri' yi etkinleştirin",
+    "selectable":false,
+    "selectOK": 100
+  },
+  "14" : {
+    "data": "Apple Kimliğinizle giriş yapın",
+    "selectable":false,
+    "selectOK": 100
+  }
+}
