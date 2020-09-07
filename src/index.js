@@ -5,9 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>               // App in 2 kez render edilmesini önlemek için burayı commentledik
+    <App />,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
 
