@@ -14,19 +14,10 @@ class Select extends Component {
     render() {
         return (
             <div>
-{/*                <Container>
-                    <Row>
-                        <button onClick={this.handleClickNo}>Hayır</button>  <button style={{marginLeft:"20px"}} onClick={this.handleClickYes}>Evet</button>
-                    </Row>
-                </Container>*/}
-
-
                     <ButtonGroup>
                         <Button className="selectButton" onClick={this.handleClickNo}>Hayır</Button>
                         <Button style={{marginLeft:"7px"}} className="selectButton" onClick={this.handleClickYes}>Evet</Button>
                     </ButtonGroup>
-
-
             </div>
         );
     }

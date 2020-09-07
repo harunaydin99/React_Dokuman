@@ -23,18 +23,12 @@ class App extends Component {
         this.state.IDs.push(this.state.currentid)
     }
     idPlusPositive = (e) =>{
-        /*        this.setState({
-                    currentid:(Math.floor(this.state.currentid)) + 1
-                })*/
         this.setState({
             currentid: DocumentDatas[this.state.currentid].selectPositive
         })
         this.state.IDs.push(this.state.currentid)
     }
     idPlusNegative = (e) =>{
-        /*        this.setState({
-                    currentid:(Math.floor(this.state.currentid)) + 1
-                })*/
         this.setState({
             currentid: DocumentDatas[this.state.currentid].selectNegative
         })
@@ -57,7 +51,7 @@ class App extends Component {
                     DocumentDatas[this.state.currentid].img !== "" ? <div style={{width:"300px", height:"200px", marginLeft:"190px"}}><img src={DocumentDatas[this.state.currentid].img} alt="logo"/></div> : <div style={{width:"300px", height:"200px"}}></div>
                 }
                 {
-                    <h2>{DocumentDatas[this.state.currentid].data}</h2>   /// this.state.dictionary["0"].data   gibi
+                    <h2>{DocumentDatas[this.state.currentid].data}</h2>   /// this.state.dictionary["0"].data
                 }
                 {
                     DocumentDatas[this.state.currentid].selectable === true ? <Select handleClickNo={this.idPlusNegative} handleClickYes={this.idPlusPositive}></Select>

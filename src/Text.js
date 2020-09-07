@@ -12,7 +12,6 @@ class Text extends Component {
     render() {
         return (
             <div>
-
                 <div>
                     <ButtonGroup>
                         <Button className="textButton" onClick={this.handleClick}>Tamam</Button>
